@@ -21,7 +21,7 @@
                 mysqli_connect_error());
                 }
 
-                $sql="INSERT INTO diem VALUES ('$masv', '$mahp', diemhp);";
+                $sql="INSERT INTO diem VALUES ('$masv', '$mahp', $diem);";
                 if(mysqli_query($conn, $sql)){
                     ?>
                     <script>
