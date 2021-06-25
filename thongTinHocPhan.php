@@ -46,7 +46,7 @@
                     <td><?php echo $row["mahp"]?></td>
                     <td><?php echo $row["tenhp"]?></td>
                     <td>Sua</td>
-                    <td><a href="xoaHocPhan.php?mah=<?php echo $mahp; ?>">Xoa</a></td>
+                    <td><a href="xoaHocPhan.php?mahp=<?php echo $mahp; ?>">Xoa</a></td>
                 </tr>
             <?php
                 }

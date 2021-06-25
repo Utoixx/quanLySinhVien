@@ -24,8 +24,8 @@
                 }else{
                     ?>
                     <script>
-                        alert("Xoa thong tin that bai!");
-                        window.location.replace("thongTinHocPhan.php");
+                       alert("Xoa thong tin that bai!");
+                       window.location.replace("thongTinHocPhan.php");
                     </script>
                     <?php
                 }
